@@ -1,102 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Mohammed Abdelmoughith Rouis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <header>
-          <img src="pdp.jpg" alt="image">
-
-        <div class="header-text">
-            <h1>Mohammed Abdelmoughith Rouis</h1>
-            <p>Engineering student</p>
-            <p>birthday: 17-09-2004</p>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="pdp.jpg" alt="Mohammed Abdelmoughith Rouis" id="profile-photo">
+                </div>
+                <div>
+                    <h1>Mohammed Abdelmoughith Rouis</h1>
+                    <div class="contact-info">
+                        <a href="mailto:abdourouis11@gmail.com"><i class="fas fa-envelope"></i> abdourouis11@gmail.com</a>
+                        <a href="tel:22239352"><i class="fas fa-phone"></i> 22 239 352</a>
+                        <span><i class="fas fa-map-marker-alt"></i> Msaken, Sousse, Tunisie</span>
+                        <a href="https://linkedin.com/in/mohammed-abdelmoughith-rouis-80544b35Q" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <nav>
-        <a href="#profile">Profile</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Projects</a>
-
-    </nav>
-    <main>
-
+    <main class="container">
+        
+        <!-- Profil -->
         <section id="profile">
-          <h2>Profile</h2>
-          <p>Engineering student passionate about web development, focused on building clean and functional web applications while continuously learning new technologies.</p>
+            <h2>Profil</h2>
+            <p class="profile">
+                Étudiant motivé en 1ère année génie de la communication et des réseaux cherchant un stage en systèmes de réseau pour appliquer mes connaissances en réseaux, routage, commutation et gestion d'infrastructure. 
+                Je souhaite contribuer à la configuration, à la supervision du réseau et au dépannage des problèmes de connectivité sous la supervision d'ingénieurs expérimentés.
+            </p>
         </section>
 
+        <!-- Formation -->
         <section id="education">
-          <h2>Education</h2>
-          <ul>
-            <li>Diplome bac : 2023</li>
-            <li>cycle preparatoir aux etudes d'ingenieurs: 2023-2025</li>
-            <li>Cycle ingenieurs en reseaux et communication : 2025- 2028</li>          </ul>
+            <h2>Formation Académique</h2>
+            <div class="item">
+                <div class="item-title">Génie de la communication et des réseaux</div>
+                <div class="item-date">09/2025 – Aujourd'hui</div>
+                <p><strong>École Nationale d'Ingénieurs de Gabès (ENIG)</strong><br>
+                Gabès, Tunisie</p>
+            </div>
         </section>
 
+        <!-- Compétences -->
         <section id="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML / CSS</li>
-            <li>JavaScript</li>
-            <li>Git</li>
-            <li>C / C++</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>languages: arabic, french, english</li>
-          </ul>
+            <h2>Compétences</h2>
+            <div class="skills-list">
+                <div class="skill"><i class="fab fa-python"></i> Python</div>
+                <div class="skill"><i class="fas fa-code"></i> C</div>
+                <div class="skill"><i class="fab fa-java"></i> Java</div>
+                <div class="skill"><i class="fas fa-terminal"></i> Bash / Shell Scripting (Linux)</div>
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <article>
-                <h3>Mini Web Project</h3>
-                <p>a study of the evolution of the generations of telecomunication, from 1G to 6G, with simulations that demonstrate the evolution of NSR, latancy, and debit.</p>
-                
-                <h3>web developpement projects</h3>
-                <p>deigned and built several websites:</p>
-                <ul>
-                    <li>profitional resume</li>
-                    <li>time and recource management website</li>
-                </ul>
+        <!-- Certifications -->
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="grid">
+                <div class="item">
+                    <strong>Fundamentals of Deep Learning</strong><br>
+                    <span>NVIDIA</span>
+                </div>
+                <div class="item">
+                    <strong>CCNA 1</strong><br>
+                    <span>Cisco</span>
+                </div>
+            </div>
+        </section>
 
-                <h3></h3>
-            </article>
+        <!-- Projets -->
+        <section id="projects">
+            <h2>Projets</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-title">Évolution des réseaux mobiles et analyse comparative</div>
+                    <div class="item-date">09/2025 – 12/2025</div>
+                    <p>Étude des générations 1G–5G et simulation sous NS-3 pour analyser l'impact des paramètres réseau sur les performances 4G/5G.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Site Web IEEE IAS ENIG Student Branch Chapter</div>
+                    <div class="item-date">2026</div>
+                    <p>Création du site web officiel du chapitre IEEE IAS ENIG SBC en tant que secrétaire média.</p>
+                    <a href="https://iaswebsite-nine.vercel.app/" target="_blank" class="btn">
+                        <i class="fas fa-external-link-alt"></i> Voir le site
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Chaya3ni m3ak</div>
+                    <div class="item-date">2026</div>
+                    <p>Projet académique full-stack développé avec PHP, JavaScript, HTML et CSS pour découvrir le développement web moderne.</p>
+                    <a href="#" id="chaya3ni-link" class="btn">
+                        <i class="fab fa-github"></i> GitHub (à ajouter)
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Associations -->
+        <section id="associations">
+            <h2>Associations</h2>
+            <div class="item">
+                <div class="item-title">IEEE IAS ENIG Student Branch Chapter</div>
+                <div class="item-date">02/2026 – Aujourd'hui</div>
+                <p><strong>Secrétaire Média</strong></p>
+                <a href="https://iaswebsite-nine.vercel.app/" target="_blank" class="association-link">
+                    Visiter le site du chapitre →
+                </a>
+            </div>
+        </section>
+
+        <!-- Langues -->
+        <section id="languages">
+            <h2>Langues</h2>
+            <div class="languages">
+                <div class="lang">
+                    <strong>Arabe</strong>
+                    <div class="lang-dots">
+                        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <strong>Français</strong>
+                    <div class="lang-dots">
+                        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot" style="background:#cbd5e1"></div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <strong>Anglais</strong>
+                    <div class="lang-dots">
+                        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot" style="background:#cbd5e1"></div><div class="dot" style="background:#cbd5e1"></div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
+
     <footer>
-
-      <section class="social-links">
-        <h3>Connect with me</h3>
-        <ul>
-            <li>email: abdourouis11@gmail.com</li>
-            <li><a href="https://www.facebook.com/abdelmoughith.rouis" target="_blank">Facebook</a></li>
-            <li><a href="https://www.linkedin.com/in/mohammed-abdelmoughith-rouis-80544b350/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/MoughithROUIS" target="_blank">GitHub</a></li>
-        </ul>
-      </section>
-
-      <section class="contact">
-        <h3>Contact Me</h3>
-        <form>
-          <label for="email">Your Email</label><br>
-          <input type="email" id="email" name="email" required><br><br>
-
-          <label for="message">Your Message</label><br>
-          <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-          <button type="submit">Send</button>
-        </form>
-      </section>
-
+        <p>&copy; 2026 Mohammed Abdelmoughith Rouis • Disponible pour un stage en réseaux et télécommunications</p>
     </footer>
 
+    <script>
+        // Handle scroll animation for header
+        const header = document.querySelector('header');
+        const profilePhoto = document.getElementById('profile-photo');
+        const h1 = document.querySelector('h1');
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+                profilePhoto.classList.add('scrolled');
+                h1.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+                profilePhoto.classList.remove('scrolled');
+                h1.classList.remove('scrolled');
+            }
+        });
+
+        document.getElementById('chaya3ni-link').addEventListener('click', function(e) {
+            if (this.getAttribute('href') === '#') {
+                e.preventDefault();
+                alert("Lien GitHub sera ajouté prochainement !");
+            }
+        });
+    </script>
 </body>
 </html>
